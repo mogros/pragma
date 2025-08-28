@@ -1,0 +1,33 @@
+# ==========================================
+# Gitignore para proyectos Java + Gradle + IntelliJ IDEA
+# ==========================================
+
+# --- Archivos y carpetas de Gradle ---
+.gradle/
+build/
+out/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- Archivos del wrapper de Gradle (opcional, si quieres incluirlos quítalos) ---
+gradle-app.setting
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de logs ---
+*.log
+
+# --- Archivos temporales ---
+*.tmp
+*.swp
+*.swo
